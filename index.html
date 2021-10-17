@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Welcome, it's Teddy</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark purple" aria-label="Tenth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler ms-auto mb-2 mb-xl-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid py-4">  
+      <div class="p-5 jumbo mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Welcome, I am Teddy-Livingstone</h1>
+          <h3 class="col-md-8 fs-4">I am a software developer</h3>
+          <p>I can help you bring your ideas to life through the web. I have built several programs encompassing a number of technologies and languages. Look through some of my work and experience. If you like what you see and have a project you need to build, let's connect.</p>
+          <div class="jumbo-icons d-block">
+            <a href="https://angel.co/u/tememandu" target="_blank"><i class="me-2 fa fa-angellist" aria-hidden="true"></i></a>
+            <a href="https://github.com/TedLivist" target="_blank"><i class="me-2 fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/tememandu/" target="_blank"><i class="me-2 fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="mailto:livistteddy@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid py-2" id="portfolio">
+        <div class="text-center mb-5">
+          <h1 class="display-5 fw-bold">My Recent Works</h1>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 light-purple">
+              <img src="images/mac-forum.jpg" class="card-img-top" alt="mac-forum">
+              <div class="card-body">
+                <h5 class="card-title">Mac Forum</h5>
+                <p class="card-text">Mac Forum is an online web blog where users can join, create articles and upvote articles. The article with the highest vote gets featured on the from page</p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">Ruby on Rails</span>
+                <span class="badge bg-secondary">Ruby</span>
+                <span class="badge bg-success">Capybara</span>
+                <span class="badge purple">RSpec</span>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/TedLivist/mac-forum" target="_blank" class="btn purple border-0 btn-primary">View Code</a>
+                <a href="https://intense-plateau-65009.herokuapp.com/" target="_blank" class="btn purple border-0 btn-primary">View Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 light-purple">
+              <img src="images/math-magician.jpg" class="card-img-top" alt="math-magician-img">
+              <div class="card-body">
+                <h5 class="card-title">Math Magicians</h5>
+                <p class="card-text">"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.</p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">React</span>
+                <span class="badge bg-secondary">Jest</span>
+                <span class="badge bg-success">React Testing Library</span>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/TedLivist/math-magicians" target="_blank" class="btn purple btn-primary border-0">View Code</a>
+                <a href="https://tedlivist.github.io/math-magicians/" target="_blank" class="btn purple btn-primary border-0">View Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 light-purple">
+              <img src="images/scraper.jpg" class="card-img-top" alt="scraper-img">
+              <div class="card-body">
+                <h5 class="card-title">Weather Scraper</h5>
+                <p class="card-text">This program scrapes weather forecast requests for a city from Weather-Forecast.com along with some additional weather information for nearby cities. Built with Ruby.</p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">Ruby</span>
+                <span class="badge bg-secondary">RSpec</span>
+                <span class="badge bg-success">Nokogiri</span>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/TedLivist/weather-scraper" class="btn purple border-0 btn-primary" target="_blank">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 light-purple">
+              <img src="images/covid.png" class="card-img-top" alt="covid-figures-img">
+              <div class="card-body">
+                <h5 class="card-title">Covid Figures</h5>
+                <p class="card-text">This is a web app that displays real-time data of confirmed covid cases across selected countries. On navigating to a country, an additional breakdown of cases for that country is displayed across its different regions.</p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">React</span>
+                <span class="badge purple">Redux</span>
+                <span class="badge bg-warning">API</span>
+                <span class="badge bg-secondary">Jest</span>
+                <span class="badge bg-success">React Testing</span>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/TedLivist/covid-figures" class="btn purple border-0 btn-primary" target="_blank">View Code</a>
+                <a href="https://tedlivist.github.io/covid-figures/" class="btn purple border-0 btn-primary" target="_blank">View Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 light-purple">
+              <img src="images/netflex.jpg" class="card-img-top" alt="netflex-img">
+              <div class="card-body">
+                <h5 class="card-title">Netflex</h5>
+                <p class="card-text">NETFLEX is a web application based on an external - here the TV Maze API. The API provides data about TV Shows. We then built the webapp around it. The webapp has 2 user interfaces (pages): The Homepage and the Comment modal.</p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">JavaScript</span>
+                <span class="badge bg-secondary">Webpack</span>
+                <span class="badge purple">Jest</span>
+                <span class="badge bg-info">API</span>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/TedLivist/js-capstone-netflex" class="btn purple border-0 btn-primary" target="_blank">View Code</a>
+                <a href="https://bit.ly/3tI5qU1" class="btn purple border-0 btn-primary" target="_blank">View Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 light-purple">
+              <img src="images/travelers.jpg" class="card-img-top" alt="travelers-hub-img">
+              <div class="card-body">
+                <h5 class="card-title">Space Travelers Hub</h5>
+                <p class="card-text">"Space Travalers' Hub" is a website for a company that provides commercial and scientific space travel services. The application allow users to book rockets and join selected space missions.</p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">React</span>
+                <span class="badge bg-secondary">Redux</span>
+                <span class="badge bg-success">Jest</span>
+                <span class="badge bg-secondary">Bootstrap</span>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/TedLivist/Space-Travelers-Hub" class="btn purple border-0 btn-primary" target="_blank">View Code</a>
+                <a href="https://shinobiwarior.github.io/Space-Travelers-Hub/" class="btn purple border-0 btn-primary" target="_blank">View Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-5 my-4 bg-white rounded-3" id="about">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">About Me</h1>
+          <p class="col-md-8 fs-4">I am a software developer who has built several programs encompassing different programming languages and tech tools ranging from Javascript, React to Ruby on Rails to Git versioning tool, RSpec, and Test-Driven Development.</p>
+          <a href="https://docs.google.com/document/d/1IPIQfFhyUSVUrvtAmSbhAXnQC5FbgPPR31Zo7aGb3ME/edit?usp=sharing" target="_blank" class="btn purple border-0 btn-primary btn-lg">View My Resume</a>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-sm-3 g-4">
+          <div class="col">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Languages</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">HTML5</span>
+                <span class="badge bg-secondary">CSS3</span>
+                <span class="badge bg-success">JavaScript</span>
+                <span class="badge bg-success">Ruby</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Frameworks/Libraries</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">Ruby on Rails</span>
+                <span class="badge purple">React</span>
+                <span class="badge bg-secondary">Bootstrap</span>
+                <span class="badge bg-success">Capybara</span>
+                <span class="badge bg-success">RSpec</span>
+                <span class="badge purple">Jest</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Skills/Tools</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-body">
+                <span class="badge bg-primary">Git</span>
+                <span class="badge bg-secondary">Webpack</span>
+                <span class="badge purple">Pair-programming</span>
+                <span class="badge bg-secondary">Agile Methodologies</span>
+                <span class="badge bg-success">Github</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid" id="contact">
+        <div class="row">
+          <div class="col-sm-12 col-md-5 pt-3">
+            <div class="fw-bolder form-header text-center py-3 px-1">
+              I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+            </div>
+          </div>
+          <form class="row col g-3" action="https://formspree.io/f/xleakgod" method="POST">
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" required class="form-control" name="email" id="inputEmail" placeholder="Enter email">
+            </div>
+            <div class="col-md-6">
+              <label for="inputName" class="form-label">Name</label>
+              <input type="text" required class="form-control" name="name" id="inputName" placeholder="Enter Name">
+            </div>
+            <div class="col-12">
+              <label for="inputMessage" class="form-label">Message</label>
+              <textarea name="message" required class="form-control" id="inputMessage" placeholder="Enter your message" cols="30" rows="10"></textarea>
+            </div>
+            
+            <div class="col-12">
+              <button type="submit" class="btn purple border-0 btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center container-fluid pt-3 mt-4">
+        <div class="col-md-4 d-flex align-items-center">
+          <span>&copy; 2021 Teddy-Livingstone</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <a href="https://angel.co/u/tememandu" target="_blank"><i class="me-3 fa fa-angellist" aria-hidden="true"></i></a>
+          <a href="https://github.com/TedLivist" target="_blank"><i class="me-3 fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/tememandu/" target="_blank"><i class="me-3 fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="mailto:livistteddy@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        </ul>
+      </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
