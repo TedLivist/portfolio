@@ -238,26 +238,26 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-5 pt-3">
-            <div class="fw-bolder py-3 px-1">
-              Dev
+            <div class="fw-bolder form-header text-center py-3 px-1">
+              I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </div>
           </div>
           <form class="row col g-3">
             <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" required class="form-control" id="inputEmail" placeholder="Enter email">
             </div>
             <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Name</label>
-              <input type="text" class="form-control" id="inputPassword4">
+              <label for="inputName" class="form-label">Name</label>
+              <input type="text" required class="form-control" id="inputName" placeholder="Enter Name">
             </div>
             <div class="col-12">
-              <label for="inputMessage" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              <label for="inputMessage" class="form-label">Message</label>
+              <textarea name="message" required class="form-control" id="inputMessage" placeholder="Enter your message" cols="30" rows="10"></textarea>
             </div>
             
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary">Send Me</button>
             </div>
           </form>
         </div>

@@ -13,3 +13,9 @@
 .jumbo-icons a:hover {
   color: #8540F5;
 }
+
+.form-header {
+  font-size: 1.5rem;
+  position: relative;
+  top: 1.5rem;
+}
