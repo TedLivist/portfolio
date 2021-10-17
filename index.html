@@ -13,7 +13,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark purple" aria-label="Tenth navbar example">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark purple" aria-label="Tenth navbar example">
       <div class="container-fluid">
         <button class="navbar-toggler ms-auto mb-2 mb-xl-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,21 +22,13 @@
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Centered nav only</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-              <ul class="dropdown-menu" aria-labelledby="dropdown08">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -44,7 +36,7 @@
     </nav>
 
     <div class="container-fluid py-4">  
-      <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="p-5 jumbo mb-4 bg-light rounded-3">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Hi there, I am Teddy-Livingstone</h1>
           <h3 class="col-md-8 fs-4">I am a software developer</h3>
@@ -58,125 +50,125 @@
         </div>
       </div>
 
-      <div class="container-fluid py-2">
-
+      <div class="container-fluid py-2" id="portfolio">
         <div class="text-center mb-5">
           <h1 class="display-5 fw-bold">My Recent Works</h1>
         </div>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 light-purple">
               <img src="images/mac-forum.jpg" class="card-img-top" alt="mac-forum">
               <div class="card-body">
                 <h5 class="card-title">Mac Forum</h5>
                 <p class="card-text">Mac Forum is an online web blog where users can join, create articles and upvote articles. The article with the highest vote gets featured on the from page</p>
               </div>
               <div class="card-body">
-                <span class="badge bg-primary">Primary</span>
-                <span class="badge bg-secondary">Secondary</span>
-                <span class="badge bg-success">Success</span>
+                <span class="badge bg-primary">Ruby on Rails</span>
+                <span class="badge bg-secondary">Ruby</span>
+                <span class="badge bg-success">Capybara</span>
+                <span class="badge purple">RSpec</span>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Card link</a>
-                <a href="#" class="btn btn-primary">Another link</a>
+                <a href="https://github.com/TedLivist/mac-forum" target="_blank" class="btn btn-primary">View Code</a>
+                <a href="https://intense-plateau-65009.herokuapp.com/" target="_blank" class="btn btn-primary">View Demo</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 light-purple">
               <img src="images/math-magician.jpg" class="card-img-top" alt="math-magician-img">
               <div class="card-body">
                 <h5 class="card-title">Math Magicians</h5>
                 <p class="card-text">"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.</p>
               </div>
               <div class="card-body">
-                <span class="badge bg-primary">Primary</span>
-                <span class="badge bg-secondary">Secondary</span>
-                <span class="badge bg-success">Success</span>
+                <span class="badge bg-primary">React</span>
+                <span class="badge bg-secondary">Jest</span>
+                <span class="badge bg-success">React Testing Library</span>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Card link</a>
-                <a href="#" class="btn btn-primary">Another link</a>
+                <a href="https://github.com/TedLivist/math-magicians" target="_blank" class="btn btn-primary">View Code</a>
+                <a href="https://tedlivist.github.io/math-magicians/" target="_blank" class="btn btn-primary">View Demo</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
-              <img src="images/scraper.jpg" class="card-img-top" alt="...">
+            <div class="card h-100 light-purple">
+              <img src="images/scraper.jpg" class="card-img-top" alt="scraper-img">
               <div class="card-body">
                 <h5 class="card-title">Weather Scraper</h5>
                 <p class="card-text">This program scrapes weather forecast requests for a city from Weather-Forecast.com along with some additional weather information for nearby cities. Built with Ruby.</p>
               </div>
               <div class="card-body">
-                <span class="badge bg-primary">Primary</span>
-                <span class="badge bg-secondary">Secondary</span>
-                <span class="badge bg-success">Success</span>
+                <span class="badge bg-primary">Ruby</span>
+                <span class="badge bg-secondary">RSpec</span>
+                <span class="badge bg-success">Nokogiri</span>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Card link</a>
-                <a href="#" class="btn btn-primary">Another link</a>
+                <a href="https://github.com/TedLivist/weather-scraper" class="btn btn-primary" target="_blank">View Code</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 light-purple">
               <img src="images/covid.png" class="card-img-top" alt="covid-figures-img">
               <div class="card-body">
                 <h5 class="card-title">Covid Figures</h5>
                 <p class="card-text">This is a web app that displays real-time data of confirmed covid cases across selected countries. On navigating to a country, an additional breakdown of cases for that country is displayed across its different regions.</p>
               </div>
               <div class="card-body">
-                <span class="badge bg-primary">Primary</span>
-                <span class="badge bg-secondary">Secondary</span>
-                <span class="badge bg-success">Success</span>
+                <span class="badge bg-primary">React</span>
+                <span class="badge purple">Redux</span>
+                <span class="badge bg-danger">API</span>
+                <span class="badge bg-secondary">Jest</span>
+                <span class="badge bg-success">React Testing</span>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Card link</a>
-                <a href="#" class="btn btn-primary">Another link</a>
+                <a href="https://github.com/TedLivist/covid-figures" class="btn btn-primary" target="_blank">View Code</a>
+                <a href="https://tedlivist.github.io/covid-figures/" class="btn btn-primary" target="_blank">View Demo</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 light-purple">
               <img src="images/leaderboard.jpg" class="card-img-top" alt="leaderboard-img">
               <div class="card-body">
                 <h5 class="card-title">Leaderboard</h5>
                 <p class="card-text">This project is called leaderboard. It displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.</p>
               </div>
               <div class="card-body">
-                <span class="badge bg-primary">Primary</span>
-                <span class="badge bg-secondary">Secondary</span>
-                <span class="badge bg-success">Success</span>
+                <span class="badge bg-primary">JavaScript</span>
+                <span class="badge bg-secondary">Webpack</span>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Card link</a>
-                <a href="#" class="btn btn-primary">Another link</a>
+                <a href="https://github.com/TedLivist/leaderboard" class="btn btn-primary" target="_blank">View Code</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 light-purple">
               <img src="images/travelers.jpg" class="card-img-top" alt="travelers-hub-img">
               <div class="card-body">
                 <h5 class="card-title">Space Travelers Hub</h5>
                 <p class="card-text">"Space Travalers' Hub" is a website for a company that provides commercial and scientific space travel services. The application allow users to book rockets and join selected space missions.</p>
               </div>
               <div class="card-body">
-                <span class="badge bg-primary">Primary</span>
-                <span class="badge bg-secondary">Secondary</span>
-                <span class="badge bg-success">Success</span>
+                <span class="badge bg-primary">React</span>
+                <span class="badge bg-secondary">Redux</span>
+                <span class="badge bg-success">Jest</span>
+                <span class="badge bg-secondary">Bootstrap</span>
               </div>
               <div class="card-body">
-                <a href="#" class="btn btn-primary">Card link</a>
-                <a href="#" class="btn btn-primary">Another link</a>
+                <a href="https://github.com/TedLivist/Space-Travelers-Hub" class="btn btn-primary" target="_blank">View Code</a>
+                <a href="https://shinobiwarior.github.io/Space-Travelers-Hub/" class="btn btn-primary" target="_blank">View Demo</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="p-5 my-4 bg-light rounded-3">
+      <div class="p-5 my-4 bg-light rounded-3" id="about">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">About Me</h1>
           <p class="col-md-8 fs-4">I am a software developer who has built several programs encompassing different programming languages and tech tools ranging from Javascript, React to Ruby on Rails to Git versioning tool, RSpec, and Test-Driven Development.</p>
@@ -235,7 +227,7 @@
       </div>
 
 
-      <div class="container-fluid">
+      <div class="container-fluid" id="contact">
         <div class="row">
           <div class="col-sm-12 col-md-5 pt-3">
             <div class="fw-bolder form-header text-center py-3 px-1">
@@ -265,7 +257,7 @@
 
       <footer class="d-flex flex-wrap justify-content-between align-items-center container-fluid pt-3 mt-4">
         <div class="col-md-4 d-flex align-items-center">
-          <span class="text-muted">&copy; 2021 Teddy-Livingstone</span>
+          <span>&copy; 2021 Teddy-Livingstone</span>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

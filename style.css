@@ -1,3 +1,11 @@
+/* body {
+  background-color: #e5d9f7;
+} */
+
+.light-purple {
+  background-color: #e5d9f7;
+}
+
 .purple {
   background-color: #8540F5;
 }
@@ -8,6 +16,14 @@
 
 .jumbo-icons a {
   color: black;
+}
+
+.jumbo {
+  height: 70vh;
+}
+
+.nav-item a {
+  font-size: 1.5rem;
 }
 
 .jumbo-icons a:hover {
@@ -26,8 +42,16 @@ footer i {
 
 footer a {
   color: black;
+  font-size: 1.5rem;
 }
 
 footer a:hover {
   color: #8540F5;
+}
+
+@media (min-width: 1200px) {
+  .jumbo {
+    padding: 0 10rem;
+    font-size: 1.5rem;
+  }
 }
